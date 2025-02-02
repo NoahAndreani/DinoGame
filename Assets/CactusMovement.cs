@@ -18,10 +18,10 @@ public class CactusMovement : MonoBehaviour
     if (currentSpeed < maxSpeed)
     {
         currentSpeed += speedIncreaseRate * Time.deltaTime;
-        Debug.Log("Current Speed: " + currentSpeed);
+      
     }
     transform.Translate(Vector3.left * currentSpeed * Time.deltaTime);
-    Debug.Log("Position: " + transform.position);
+   
 
     if (transform.position.x < -20)
     {

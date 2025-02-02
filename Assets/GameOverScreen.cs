@@ -21,5 +21,7 @@ public class GameOverScreen : MonoBehaviour
     void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Recharge la scène
+        Time.timeScale = 1f;
+
     }
 }
