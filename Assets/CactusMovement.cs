@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CactusMovement : MonoBehaviour
 {
-    public float initialSpeed = 500f;
-    public float speedIncreaseRate = 0.01f;
-    public float maxSpeed = 500f;
+    public float initialSpeed = 3f;
+    public float speedIncreaseRate = 0.1f;
+    public float maxSpeed = 12f;
     private float currentSpeed;
      private bool hasScored = false;
 
