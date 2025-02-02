@@ -24,19 +24,7 @@ Lancez Unity Hub.
 
 Cliquez sur « Open Project » et sélectionnez le dossier du projet cloné.
 
-#### Configurer la scène :
-
-Ajoutez les objets suivants :
-
-Joueur : Un sprite représentant le dinosaure avec un Rigidbody2D et un BoxCollider2D.
-
-Sol : Un GameObject rectangulaire avec un BoxCollider2D.
-
-Obstacles : Des préfabs configurés avec un BoxCollider2D et un script pour se déplacer.
-
-#### Configurer les tags :
-
-Ajoutez le tag Ground à l'objet sol.
+Lancez le jeu avec l'asset "DinoGame"
 
 ## Contrôles du jeu
 
